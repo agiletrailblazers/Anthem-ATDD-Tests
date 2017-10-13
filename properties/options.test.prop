@@ -1,0 +1,5 @@
+{
+    :username   => 'blee',
+    :password    => 'bar',
+    :url  => 'http://pega-test.agiletrailblazers.com/prweb'
+}

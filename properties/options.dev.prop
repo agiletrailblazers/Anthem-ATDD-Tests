@@ -1,0 +1,5 @@
+{
+    :username   => 'selenium',
+    :password    => 'seleniumpassword',
+    :url  => 'http://pega.agiletrailblazers.com/prweb'
+}

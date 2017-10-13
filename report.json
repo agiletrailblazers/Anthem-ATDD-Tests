@@ -1,0 +1,465 @@
+[
+  {
+    "uri": "features/callerinfo.feature",
+    "id": "capture-caller-reason",
+    "keyword": "Feature",
+    "name": "Capture Caller Reason",
+    "description": "",
+    "line": 1,
+    "elements": [
+      {
+        "id": "capture-caller-reason;",
+        "keyword": "Scenario",
+        "name": "",
+        "description": "",
+        "line": 2,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1837624565
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "We navigate to the prior authorization app",
+            "line": 3,
+            "match": {
+              "location": "features/step_definitions/common.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 250623698
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We log in as a CST user",
+            "line": 4,
+            "output": [
+              "Pega 7"
+            ],
+            "match": {
+              "location": "features/step_definitions/common.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1225266137
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We navigate to the caller reason page",
+            "line": 5,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4081151100
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "We submit the caller reason form",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308310281
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "An error will be displayed",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 68215205
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1218120726
+            }
+          }
+        ]
+      },
+      {
+        "id": "capture-caller-reason;;;2",
+        "keyword": "Scenario Outline",
+        "name": "",
+        "description": "",
+        "line": 24,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1872395080
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "We navigate to the prior authorization app",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/common.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 361049549
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We log in as a CST user",
+            "line": 24,
+            "output": [
+              "Pega 7"
+            ],
+            "match": {
+              "location": "features/step_definitions/common.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1449403507
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We navigate to the caller reason page",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4107756160
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We enter a caller type Office Staff",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 144962297
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We enter a reason New PA",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 129429337
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We enter a first name Tony",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 90976662
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We enter a last name Hawk",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95187706
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We enter a phone 5555551212",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 126796808
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "We submit the caller reason form",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 268291517
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "The caller reason form verification page will be displayed",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1408397583
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "We submit the caller reason form",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287851989
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "The caller reason form success message will be displayed",
+            "line": 24,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1449354580
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1226133188
+            }
+          }
+        ]
+      },
+      {
+        "id": "capture-caller-reason;;;3",
+        "keyword": "Scenario Outline",
+        "name": "",
+        "description": "",
+        "line": 25,
+        "type": "scenario",
+        "before": [
+          {
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1713883016
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "We navigate to the prior authorization app",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/common.rb:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 228387287
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We log in as a CST user",
+            "line": 25,
+            "output": [
+              "Pega 7"
+            ],
+            "match": {
+              "location": "features/step_definitions/common.rb:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1140225220
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We navigate to the caller reason page",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3974296316
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We enter a caller type Pharmacy",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 113235212
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We enter a reason Benefit Inquiry",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 184037073
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We enter a first name Tony",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 105554627
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We enter a last name Hawk",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95967953
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "We enter a phone 5555551212",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:49"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128033862
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "We submit the caller reason form",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 274965528
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "The caller reason form verification page will be displayed",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1720216930
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "We submit the caller reason form",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 277564780
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "The caller reason form success message will be displayed",
+            "line": 25,
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1401777338
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/step_definitions/callerinfo.rb:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1215064536
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
